@@ -14,10 +14,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ComponentScan(basePackages = { "com.example" })
 @EnableJpaRepositories("com.example.repository")
 @EnableTransactionManagement(proxyTargetClass = true)
-public class SpringBootExampleApplication {
+public class SpringBootPOIExampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootExampleApplication.class, args);
+		SpringApplication.run(SpringBootPOIExampleApplication.class, args);
 	}
 
 }
